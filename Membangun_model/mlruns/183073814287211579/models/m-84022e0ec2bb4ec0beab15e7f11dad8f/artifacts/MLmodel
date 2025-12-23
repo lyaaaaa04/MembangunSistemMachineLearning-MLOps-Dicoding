@@ -1,0 +1,34 @@
+artifact_path: file:C:/Users/ASUS/Downloads/SMSML_alyanoviyanti2/Membangun_model/mlruns/183073814287211579/models/m-84022e0ec2bb4ec0beab15e7f11dad8f/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+is_signature_from_type_hint: false
+mlflow_version: 3.7.0
+model_id: m-84022e0ec2bb4ec0beab15e7f11dad8f
+model_size_bytes: 4535805
+model_uuid: m-84022e0ec2bb4ec0beab15e7f11dad8f
+prompts: null
+run_id: c01e4fc3d88c4e12aa3916a47a5f3080
+signature:
+  inputs: '[{"type": "long", "name": "gender", "required": true}, {"type": "long",
+    "name": "race/ethnicity", "required": true}, {"type": "long", "name": "parental
+    level of education", "required": true}, {"type": "long", "name": "lunch", "required":
+    true}, {"type": "long", "name": "test preparation course", "required": true},
+    {"type": "long", "name": "math score", "required": true}, {"type": "long", "name":
+    "reading score", "required": true}, {"type": "long", "name": "writing score",
+    "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "object", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-12-12 05:03:10.664573'

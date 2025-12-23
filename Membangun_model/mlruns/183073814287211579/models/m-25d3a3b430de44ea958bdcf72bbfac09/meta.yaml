@@ -1,0 +1,10 @@
+artifact_location: file:C:/Users/ASUS/Downloads/SMSML_alyanoviyanti2/Membangun_model/mlruns/183073814287211579/models/m-25d3a3b430de44ea958bdcf72bbfac09/artifacts
+creation_timestamp: 1765516533349
+experiment_id: '183073814287211579'
+last_updated_timestamp: 1765516540657
+model_id: m-25d3a3b430de44ea958bdcf72bbfac09
+model_type: null
+name: model
+source_run_id: 49aa7544737f4d12bbdd803f455b6488
+status: 2
+status_message: null

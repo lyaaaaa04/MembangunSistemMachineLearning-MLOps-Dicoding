@@ -1,0 +1,37 @@
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+is_signature_from_type_hint: false
+mlflow_version: 3.7.0
+model_id: null
+model_size_bytes: 4536739
+model_uuid: ba553a7d16f64275a22f0e49bee9b95d
+prompts: null
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "gender", "required": true}, {"type": "long",
+    "name": "race/ethnicity", "required": true}, {"type": "long", "name": "parental
+    level of education", "required": true}, {"type": "long", "name": "lunch", "required":
+    true}, {"type": "long", "name": "test preparation course", "required": true},
+    {"type": "long", "name": "math score", "required": true}, {"type": "long", "name":
+    "reading score", "required": true}, {"type": "long", "name": "writing score",
+    "required": true}]'
+  outputs: '[{"type": "string", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-12-12 05:15:42.464297'

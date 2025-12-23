@@ -1,0 +1,2 @@
+GitHub: https://github.com/lyaaaaa04/Workflow-CI_alyanoviyanti.git 
+Docker Hub: https://hub.docker.com/r/lyaaaaa04/kriteria3 
